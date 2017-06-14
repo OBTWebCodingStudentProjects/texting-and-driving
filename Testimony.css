@@ -1,0 +1,194 @@
+
+
+body {
+  height: 1520px;
+  width: 100%;
+  background: #B2B2B2;
+  background-image: url(https://howellpinckneychiropractor.com/wp-content/uploads/2016/02/Depositphotos_4423611_original.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #7979d6;
+  
+
+}
+#testimonials{
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+  background: #B2B2B2;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:12px;
+}
+#testimonials li{ 
+  display:none;
+}
+#testimonials ul{
+  list-style:none;
+}
+#testimonials p.author{
+    color:#B2B2B2 ;
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
+    margin:10px;
+}
+#testimonials p.author a,
+#testimonials p.author a:hover,
+#testimonials p.author a:visited{
+  color:#FF6400;
+}
+blockquote {
+  background: url(https://dl.dropbox.com/u/96099766/RotatingTestimonial/open-quote.png) 0 0 no-repeat;
+  font-size: 24px;
+  padding: 10px 0 10px 50px;
+}
+.navbar{
+  background-color: #403f31;
+  height: 100px;
+  width: 95%;
+  position: fixed;
+  top: 37px;
+  left: 58px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 5px 5px 10px #732d2d;
+   border: 5px solid #FFF;
+  
+  }
+
+  .buttons{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+  }
+
+  #logo{
+    height: 90px;
+    width: 180px;
+    background-color: white;
+    background-image: url(http://www.phoenixlawteam.com/wp-content/uploads/2015/12/texting-while-driving-icon-e1450431079331.png);
+    background-repeat: no-repeat;
+
+  }
+
+
+.container{
+  background-color:#B2B2B2 ;
+  height: 400px;
+  width: 95%;
+  position: relative;
+    z-index: -1;
+    top: 142px;
+    left: 12px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px #732d2d;
+     border: 5px solid #FFF;
+}
+
+#box1{
+  height: 600px;
+  width: 50%;
+  position: relative;
+  margin-top: 163px;
+  text-align: center;
+  left: 25%;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-size: 20px;
+  text-shadow: 1.5px 1px black;
+  z-index: -1;
+
+}
+
+#box1 h1{
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+}
+
+#box1 h2{
+  text-align: center;
+  background-color: white;
+   border-style: solid;
+}
+
+#box1 p{
+  text-align: center;
+  background-color: white;
+   border-style: solid;
+}
+
+.companyName {
+  padding: 18px 17px 18px 15%;
+  margin: 0;
+  float: left;
+  color: #fff;
+  width: 45%;
+  background: rgba(0,0,0,0.7);
+  font-family: 'Josefin Sans', sans-serif;
+   font-weight: 400;
+  font-size: 1.8rem;
+  text-align: left;
+   font-variant: small-caps;
+   position: relative;
+    top: 15px;
+    height: 64px;
+    left: 5px;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  width: 55%;
+  float: right;
+}
+
+
+header nav ul {
+  float: right;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-right: 20px solid rgba(0,0,0,0.7);
+}
+
+header nav ul li {
+  float: left;
+  margin: 0;
+  display: inline;
+  width: 25%;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  margin-top: 15px;
+}
+
+header nav ul li:hover {
+  background: none;
+  font-style: bold;
+  transform: scale(1.4);
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  color: #fff;
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+}
+
+header nav ul li a:focus {
+  outline: none;
+}
+
+.clearfix{
+  background-color: black;
+  height: 90px;
+}
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="Testimony.css">
+	<title>Texting and Driving</title>
+</head>
+<body>
+<body>
+    
+			<div class="navbar" >
+
+
+
+<header>
+				<div class="navWrapper" id="home">
+					<div class=" clearfix">
+						<h2 class="companyName">You Drive, You Text, You Pay</h2>
+						<nav class="mainNav clearfix">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="testimony.html" class="smoothScroll">Testimony</a></li>
+								<li><a href="solutionindex.html" class="smoothScroll">Solution</a></li>
+								<li><a href="https://www.cellcontrol.com/blog/6-organizations-committed-to-stop-texting-and-driving" class="smoothScroll">Contact</a></li>
+							</ul>
+						</nav>
+					</div><!-- end .innerWrapper -->
+				</div><!-- end of .navWrapper -->
+
+			</div>
+
+
+
+
+			<div  class="container" >
+
+	   <div style="width: 100%;height: 100%;" id="testimonials">
+        <ul>
+			<li>
+				<blockquote>Mommy im home where are you!</blockquote>
+				<p class="author">John Doe, <a href="#">John</a></p>
+			</li>
+			<li>
+				<blockquote>Hey girl wassup ???? what are you doing over there!!</blockquote>
+				<p class="author">John Smith, <a href="#">John</a></p>
+			</li>
+			<li>
+				<blockquote>I know its your dog thats been pooping on my door step dammmmmmit!!</blockquote>
+				<p class="author">Ben Cooper Smith, <a href="#">John</a></p>
+			</li>
+             <li>
+				<blockquote>Hey im sorry cant text right now im driving</blockquote>
+				<p class="author">Ben Cooper Smith, <a href="#">stevie wonder</a></p>
+			</li>
+
+
+
+
+        </ul>
+
+    </div>
+    
+    
+    	
+    
+
+
+	 
+ 		
+
+
+
+
+
+
+			</div>
+			
+
+
+
+			<div id="box1">
+
+
+
+			
+	<h1>Testimonials</h1>
+	<br>
+	<h2>Mark C.</h2>
+	<br>
+
+	<p>“I lost my best friend, who was also my baby brother on Sept.11, 2010 due to distracted driving, so your message hits home hard for me. My brother, a single father of 2, was my next door neighbor every morning we would leave for work around the same time, now every morning I leave my driveway in tears knowing that a matter of a few seconds changed so many lives. When my brother won custody of his children he ask to build a home on my property next to me to “help” him with his soon to be teenage daughter. I was thrilled to have them so close, all my daughters would soon be off at college, so having him and the children there was great. Now their empty home is as much a curse as it was once a blessing. If only he would not have been distracted for the few short seconds. His fiancé was in the truck with him, when he seen they was going to flip she said he wrapped himself around her. She survived with minor cuts and scrapes, however her scars are emotional, she was pinned in the vehicle under my brother for a couple hours. That was just the type of person CJ was, although he was driving and took his eyes off the road for a matter of seconds CJ died saving someone he loved, to me he is a hero and that is what I tell his children.”</p>
+	<br>
+
+	<h2>Mary M. Smith</h2>
+	<br>
+	<p>“The reason this is sooo important to me and for this area is that just a few weeks ago we lost a teacher from one of the high schools. She was heading from home to the school here in Dalton and she was texting on a straight area of the highway. At that moment an 18 wheeler was coming off the breakdown lane back onto the highway and she hit his flatbed trailer. She never knew what hit her never even hit her brakes. She was very well loved by her students. Her name was Demara R.”</p>
+
+	<br>
+
+	<h2>John Southerland</h2>
+	<br>
+	<p>“My godson, Enzo Williams, recently died in a car accident, he was 6 months and 15 days old. They were waiting to turn left at a red light and the driver who hit them was texting and not paying attention.”</p>
+
+
+	
+
+
+
+
+			</div>
+
+
+
+			
+	<script type="text/javascript">
+		$(function(){
+	var items = (Math.floor(Math.random() * ($('#testimonials li').length)));
+	$('#testimonials li').hide().eq(items).show();
+	
+  function next(){
+		$('#testimonials li:visible').delay(5000).fadeOut('slow',function(){
+			$(this).appendTo('#testimonials ul');
+			$('#testimonials li:first').fadeIn('slow',next);
+    });
+   }
+  next();
+});
+		$(function(){
+	var items = (Math.floor(Math.random() * ($('#testimonials li').length)));
+	$('#testimonials li').hide().eq(items).show();
+	
+  function next(){
+		$('#testimonials li:visible').delay(5000).fadeOut('slow',function(){
+			$(this).appendTo('#testimonials ul');
+			$('#testimonials li:first').fadeIn('slow',next);
+    });
+   }
+  next();
+});
+	</script>		
+  
+</body>
+</html>
