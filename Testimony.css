@@ -1,4 +1,6 @@
-
+@media all and (min-width: 50em){
+  .main { width:70%; }
+  .sidebar { width:30%; }
 
 body {
   height: 1520px;
@@ -13,7 +15,7 @@ body {
 }
 #testimonials{
   width: 400px;
-  height: 350px;
+  height: 150px;
   padding: 10px;
   background: #B2B2B2;
   -moz-border-radius:12px;

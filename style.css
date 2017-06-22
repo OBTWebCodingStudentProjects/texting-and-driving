@@ -1,3 +1,11 @@
+@media all and (min-width: 50em){
+	.main { width:70%; }
+	.sidebar { width:30%; }
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
 body{
 	height: 1500px;
 	width: 100%;
@@ -7,7 +15,6 @@ body{
 	background-size: cover;
 	font-family: 'Nothing You Could Do', cursive;
 }
-
 .navbar{
 	background-color: #403f31;
 	height: 100px;
@@ -17,43 +24,33 @@ body{
 	left: 58px;
 	border-radius: 10px 10px 10px 10px;
 	box-shadow: 5px 5px 10px #732d2d;
-	 border: 5px solid #FFF;
-	
-	}
-
-
-	#click1{
-	
+	border: 5px solid #FFF;
+	z-index: 10;
+}
+#click1{
 	position: relative;
     float: right;
     bottom: 56px;
     right: 265px;
-	}
-
-	#click2{
+}
+#click2{
 	position: relative;
     float: right;
     bottom: 56px;
     right: 70px;
-
-	}
-
-	.buttons{
-		height: 100px;
-		width: 50px;
-		background-color: red;
-	}
-
-	#logo{
-		height: 90px;
-		width: 180px;
-		background-color: white;
-		background-image: url(http://www.phoenixlawteam.com/wp-content/uploads/2015/12/texting-while-driving-icon-e1450431079331.png);
-		background-repeat: no-repeat;
-
-	}
-
-
+}
+.buttons{
+	height: 100px;
+	width: 50px;
+	background-color: red;
+}
+#logo{
+	height: 90px;
+	width: 180px;
+	background-color: white;
+	background-image: url(http://www.phoenixlawteam.com/wp-content/uploads/2015/12/texting-while-driving-icon-e1450431079331.png);
+	background-repeat: no-repeat;
+}
 .container{
 	background-color: black;
 	height: 841px;
@@ -64,12 +61,17 @@ body{
     left: 12px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 10px #732d2d;
-     border: 5px solid #FFF;
+    border: 5px solid #FFF;
+    display: flex;
+    flex-wrap: nowrap;
 }
-
+.container video{
+	height: 100%;
+	width: 100%;
+}
 #box1{
-	background-color: #ca6666;
-	height: 435px;
+	background-color: white;
+	height: 31%;
 	width: 44%;
 	position: relative;
     top: 142px;
@@ -77,42 +79,31 @@ body{
     left: 50px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 10px #732d2d;
-     border: 5px solid #FFF;
-     font-size: 20px;
-     overflow: scroll;
-
-
+    border: 5px solid #FFF;
+    font-size: 20px;
+    overflow: scroll;
+    display: inline-block;
 }
-
 #box1 h1{
 	text-align: center;
 }
-
-#box1:hover{
-	width: 48%;
-}
-
 .box2{
 	background-color: #ca6666;
-	height: 435px;
+	height: 31%;
 	width: 44%;
 	position: relative;
-    right: 17px;
     float: right;
-    bottom: 293px;
+    bottom: -142px;
     -webkit-transition: width 2s;
     right: 50px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 10px #732d2d;
-     border: 5px solid #FFF;
-     background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Cell_phone_use.gif);
+    border: 5px solid #FFF;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Cell_phone_use.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
 }
-
-.box2:hover{
-	width: 48%;
-}
-
-
 .companyName {
 	padding: 18px 17px 18px 15%;
 	margin: 0;
@@ -130,15 +121,12 @@ body{
     height: 64px;
     left: 5px;
 }
-
 nav {
 	padding: 0;
 	margin: 0;
 	width: 55%;
 	float: right;
 }
-
-
 header nav ul {
 	float: right;
 	display: inline-block;
@@ -147,7 +135,6 @@ header nav ul {
 	width: 100%;
 	border-right: 20px solid rgba(0,0,0,0.7);
 }
-
 header nav ul li {
 	float: left;
 	margin: 0;
@@ -158,13 +145,11 @@ header nav ul li {
 	position: relative;
 	margin-top: 15px;
 }
-
 header nav ul li:hover {
 	background: none;
   font-style: bold;
   transform: scale(1.4);
 }
-
 header nav ul li a {
 	text-decoration: none;
 	padding: 25px 20px;
@@ -175,13 +160,20 @@ header nav ul li a {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5rem;
 }
-
 header nav ul li a:focus {
 	outline: none;
 }
-
 .clearfix{
 	background-color: black;
 	height: 90px;
 }
+footer{
+	height: 20%;
+}
+@media only screen and (max-width: 640px){
+	.navbar{
+		display: none;
+	}
+	
 
+}

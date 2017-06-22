@@ -1,3 +1,6 @@
+@media all and (min-width: 50em){
+	.main { width:70%; }
+	.sidebar { width:30%; }
 body{
 	height: 1250px;
 	width: 100%;
